@@ -1,0 +1,87 @@
+body { 
+    font-family: Arial, sans-serif; 
+}
+
+.cta {
+     background-color: #007BFF; 
+     color: white; 
+     padding: 20px; 
+     text-transform: uppercase; 
+     cursor: pointer; 
+    }
+        
+    h2 { 
+        color: #ff7f50;
+    }
+
+
+* {
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+    font-size: large;
+}
+h1 {
+    text-align: center;
+}        
+.container {
+    display: flex;
+    justify-content: center; 
+    padding: 50px;   
+}
+.kore {
+    display: flex;
+    flex-direction: row;
+    background-image:url("IF1.jpeg") ;
+}
+.kore img {
+    width: 150px;
+
+}
+form {
+    padding: 16px;
+    width: 400px;
+    background-color: rgb(255, 254, 195);
+}
+input,select {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+}
+input,select:focus {
+
+    outline: none;
+}
+.naissance{
+    cursor: text;
+}
+select {
+    cursor: pointer;
+}
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+.registrebtn {
+    background-color: #04af2f;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: larger;
+}
+.registrebtn:hover {
+    opacity: 1;
+}
+a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+.connecte {
+    background-color: #f1f1f1;
+    text-align: center;
+}

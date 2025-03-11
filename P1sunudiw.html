@@ -1,100 +1,125 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sunu Diw</title>
-    <link rel="stylesheet" href="P1sunudiw.css">
-</head>
-<body>
+    <link rel="stylesheet" href="P1sunudiw.css" />
+  </head>
+  <body>
     <header>
-        <div class="image">
-            <img src="P3.jpg" alt="logo">
-            <p>L'image du logo de l'entreprise</p>
+      <nav>
+        <div class="menu-toggle" id="mobile-menu">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-        <h1>Sunu Diw</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Accueil</a></li>
-                <li><a href="#product">Produit</a></li>
-                <li><a href="#features">Caractéristiques</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div
+          class="navSections"
+          style="display: flex; justify-content: space-between"
+        >
+          <h1>Sunu Diw</h1>
+          <ul id="nav-list">
+            <li><a href="/P1sunudiw.html" class="active">Accueil</a></li>
+            <li><a href="/auth.html">Compte</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <main>
-        <section id="home">
-            <div class="hero">
-                <h2>Découvrez notre Nouveau Produit</h2>
-                <p>Innovation, qualité et performance du produit Sunu Diw en 2025.</p>
-                <p>Sunu Diw a une date d'expiration de 2035, est très vitaminé et contient 0% de cholestérol.</p>
-                <p><strong>Sunu Diw, Diwou Askan Wi !</strong></p>
-                <a href="#product" class="btn">En savoir plus</a>
-            </div>
-        </section>
-        <section id="product">
-            <h2>Notre Produit</h2>
-            <p>Découvrez les détails de notre dernier produit révolutionnaire.</p>
-            <div class="product-gallery">
-                <img src="P1.jpg" alt="Ninal">
-                <img src="sd2.jpg" alt="Sunu Diw">
-                <img src="p2.jpg" alt="Vinaigre du Roy">
-                <img src="P4.jpg" alt="Niani">
-                <img src="P5.jpg" alt="Ninal chachet">
-                <img src="P6.jpg" alt="Vinaigre">
-                <img src="P7.jpg" alt="Ninal">
-                <img src="P8.jpg" alt="Eau de javel Baol">
-                <img src="P9.jpg" alt="Vinaigre du Roy">
-            </div>
-        </section>
-        <section id="features">
-            <h2>Caractéristiques</h2> 
-            <div class="feature">
-                <h3>Raffinage</h3>
-                <img src="R1.jpg" alt="raffinerie">
-                <p>Le produit Sunu Diw est raffiné avec un haut niveau de qualité, garantissant son excellence.</p>
-                <p>Il est issu de végétaux naturels et suit un processus de raffinement optimal.</p>
-            </div>
-            <div class="feature">
-                <h3>Vitamines</h3>
-                <p>Les végétaux utilisés sont riches en vitamines A, D, E et K.</p>
-                <p>L'huile Sunu Diw est une source naturelle de vitamines liposolubles qui favorisent l'absorption des nutriments essentiels.</p>
-            </div>
-            <div class="feature">
-                <h3>Qualité</h3>
-                <p>Sunu Diw contient 0% de cholestérol et a une date d'expiration en 2035. Elle est conservable et résistante à toute température.</p>
-                <img src="QU2.webp" alt="qualité">
-            </div>
-        </section>
-        <section id="contact">
-            <h2>Contactez-nous</h2>
-            <div class="form-container">
-                <img src="DS.png" alt="logo">
-                <form id="contact-form" action="submit.php" method="post">
-                    <label for="name">Nom :</label>
-                    <input type="text" id="name" name="name" required>
-                    
-                    <label for="phone">Téléphone :</label>
-                    <input type="tel" id="phone" name="phone" required>
-                    
-                    <label for="email">Email :</label>
-                    <input type="email" id="email" name="email" required>
-                    
-                    <label for="message">Message :</label>
-                    <textarea id="message" name="message" required></textarea>
-                    
-                    <button type="submit">Envoyer</button>
-                    <p></p>
-                </form>
-            </div>
-        </section>
+      <section id="home">
+        <div class="hero">
+          <div class="hero-content">
+            <h2>Découvrez <span>Sunu Diw</span>, l'innovation à son apogée</h2>
+            <p class="tagline">
+              Innovation, qualité et performance pour un produit exceptionnel en
+              2025.
+            </p>
+            <p class="description">
+              Sunu Diw est riche en vitamines, sans cholestérol, et a une durée
+              de conservation jusqu'en 2035.
+            </p>
+            <p class="slogan"><strong>Sunu Diw, Diwou Askan Wi !</strong></p>
+            <a href="#products" class="btn">Découvrir nos produits</a>
+          </div>
+          <div class="hero-image">
+            <img src="P3.jpg" alt="Sunu Diw" class="product-image" />
+          </div>
+        </div>
+      </section>
+      <section id="products">
+        <h2>Notre production</h2>
+        <p>Découvrez les détails de notre dernier produit révolutionnaire.</p>
+        <div class="product-gallery">
+          <div class="product-item">
+            <img src="P1.jpg" alt="Ninal" />
+            <p>Ninal</p>
+          </div>
+          <div class="product-item">
+            <img src="sd2.jpg" alt="Sunu Diw" />
+            <p>Sunu Diw</p>
+          </div>
+          <div class="product-item">
+            <img src="p2.jpg" alt="Vinaigre du Roy" />
+            <p>Vinaigre du Roy</p>
+          </div>
+          <!-- Ajoutez plus de produits ici -->
+        </div>
+      </section>
+      <section id="features">
+        <h2>Caractéristiques</h2>
+        <div class="feature-container">
+          <div class="feature">
+            <h3>Raffinage</h3>
+            <img src="R1.jpg" alt="raffinerie" />
+            <p>
+              Le produit Sunu Diw est raffiné avec un haut niveau de qualité,
+              garantissant son excellence.
+            </p>
+            <p>
+              Il est issu de végétaux naturels et suit un processus de
+              raffinement optimal.
+            </p>
+          </div>
+          <div class="feature">
+            <h3>Vitamines</h3>
+            <img src="SONP.jpeg" alt="product" />
+            <p>Les végétaux utilisés sont riches en vitamines A, D, E et K.</p>
+            <p>
+              L'huile Sunu Diw est une source naturelle de vitamines
+              liposolubles qui favorisent l'absorption des nutriments
+              essentiels.
+            </p>
+          </div>
+          <div class="feature">
+            <h3>Qualité</h3>
+            <img src="Q1.jpg" alt="qualité" />
+            <p>
+              Sunu Diw contient 0% de cholestérol et a une date d'expiration en
+              2035. Elle est conservable et résistante à toute température.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Autres sections -->
     </main>
     <footer>
-        <p>&copy; 2025 Sunu Diw. Tous droits réservés.</p>
-        <p>Contact : 70 812 46 12, Bel-Air MOLE 4 | <a href="mailto:fallibra25@gmail.com">Envoyez-nous un mail</a></p>
-        <a href="https://facebook.com"><img src="F1.jpg" alt="Facebook"> Facebook</a>
-        <a href="https://www.google.com"><img src="G2.webp" alt="Google"> Google</a>
+      <p>N' hésitez pas à nous appeler</p>
+      <p>Innovation 2025 Sunu Diw. Tous droits réservés.</p>
+      <p>
+        Contact : 70 812 46 12, adresse: Bel-Air MOLE 4 <br />
+        Envoyez-nous un mail par <a href="mailto:fallibra25@gmail.com">Ici</a>
+      </p>
+      <a
+        href="https://www.facebook.com/sonacos.sn/videos/sonacos/1047577040350655/"
+      >
+        <img src="F1.jpg" alt="Facebook" /> Facebook
+      </a>
+      <a href="https://www.sonacos.sn/">
+        <img src="G2.webp" alt="Google" /> Google
+      </a>
     </footer>
     <script src="P1sunudiw.js"></script>
-</body>
+  </body>
 </html>

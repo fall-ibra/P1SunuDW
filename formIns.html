@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fiche d' incription</title>
+    <link rel="stylesheet" href="formIns.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero">
+        <h1>Bienvenue sur SONACOS</h1>
+        <p>
+          Découvrez comment notre meuilleur produit SONACOS peut améliorer votre
+          quotidien.
+        </p>
+        <div class="cta">
+          Choisissez SONACOS pour voir comment la vie est magnifique avec
+          SANACOS
+        </div>
+
+        <div class="kore">
+          <img src="ara1.jpg" alt="arachide" />
+          <div class="form">
+            <form>
+              <label for="name"><strong>Nom</strong></label
+              ><br />
+              <input
+                type="text"
+                placeholder="Enter Name"
+                name="name"
+                required
+              />
+              <label for="email"><strong>Email</strong></label>
+              <input
+                type="text"
+                placeholder="Enter Email"
+                name="email"
+                required
+              />
+              <label for="Téléphone"><strong>Téléphone</strong></label>
+              <input
+                type="tel"
+                placeholder="Enter Number"
+                name="phone"
+                required
+              />
+              <label for="psw"><strong>mots de passe</strong></label>
+              <input
+                type="password"
+                placeholder="Enter Password"
+                name="psw"
+                required
+              />
+              <label for="psw-confirm">
+                <strong>Confirme mots de passe</strong>
+              </label>
+              <input
+                type="motpasse"
+                placeholder="Confirme mots de passe"
+                name="mdp-confirm"
+                required
+              />
+              <label for="naissance"><strong>date de naissance</strong></label>
+              <input
+                type="date"
+                placeholder="date de naissance"
+                name="dob"
+                required
+                class="dob"
+              />
+              <label for="genre"><strong>genre</strong></label>
+              <select id="genre" name="genre" required>
+                <option value="male">Homme</option>
+                <option value="female">Femme</option>
+              </select>
+
+              <p>
+                En créant un compte, vous acceptez notre
+                <a href="#">Termes et confidentialité </a>
+              </p>
+              <button type="submit" class="registrebtn">s'incrire</button>
+              <div class="connecte">
+                <p>Vous avez déjà un compte? <a href="#">Se connecter</a>.</p>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="Témoignages">
+          <h2>Témoignages</h2>
+          <p>"SANACOS a transformé ma vie!" -SOJIEF</p>
+          <p>"Je ne pourrais plus m'en passer." -Monsieur POLE</p>
+          <p>"Je recommende SANACOS à tout mes amies" -Modou Yo</p>
+        </div>
+      </div>
+    </div>
+    <script src="formIns.js"></script>
+  </body>
+</html>
